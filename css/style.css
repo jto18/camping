@@ -224,7 +224,7 @@ button{background-color: green; margin:10px;
 .usa img{border-color:black;
   border-style: solid; border-width: 4px;
 }
-.about1{font-family: 'Indie Flower', cursive;background-color: black;
+.about1{font-family: 'Indie Flower'; background-color: black;
 color:white; margin: 20px;  font-size: 24px;
   
 }
