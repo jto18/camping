@@ -1,0 +1,245 @@
+body ,html{
+background-color: black;
+}
+
+
+
+h4{
+  color:white; text-align:center; font-family: 'PT Sans', sans-serif;
+  font-size: 30px; 
+}
+h2{
+  font-family: 'EB Garamond', serif;
+  }
+
+.about{
+  text-align: justify; 
+     color:black; background-color: white; font-size: 14px; padding: 80px;
+     margin-top: 10px;
+}
+.container {
+    position: relative; 
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 90%; /* Full width */
+    padding: 10px; /* Some padding */
+}
+.images{margin-top: 10px; 
+    
+}
+button{background-color: green; margin:10px; 
+    }
+    
+  nav a:hover{text-decoration: none;
+  color:orange;
+    }
+  
+  a:link{color:white;font-family: 'PT Sans', sans-serif;
+  font-size: 30px; text-align: center;
+  }
+  a:hover{color:orange;
+  }
+    .text{color:white; 
+      
+    }
+    #click{background-color: green; color:white; padding: 20px;
+    text-align: center;
+      
+    }
+    #list{background-color: green; color:white; padding: 100px;
+    text-align: center;margin-top: 5px; display:none;
+    }
+    nav{margin-top: 60px; 
+      
+    }
+.col-12{
+  -webkit-animation: grow 15000ms ease;
+          animation: grow 15000ms ease;
+}
+@-webkit-keyframes grow {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes grow {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+.slideshow-container{text-align: center;
+ 
+  
+}
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+   
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.usa{
+  margin:20px; text-align: center; 
+  
+}
+.container2 {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container4{
+  position: relative; margin-top: 20px;
+}
+.text{
+  color:orange; text-align: center;
+}
+.text2{
+  text-align: justify; font-family: 'EB Garamond', serif;
+   color:black; background-color: white; font-size: 14px; padding: 80px;
+  margin-top: 10px; margin-bottom: 10px;
+}
+  
+.usa img{border-color:black;
+  border-style: solid; border-width: 4px;
+}
+.about1{font-family: 'Indie Flower', cursive;background-color: black;
+color:white; margin: 60px;  font-size: 24px;
+  
+}
+.contact{background-color: black; 
+text-align: center; font-size: 30px; color:white;
+}
+.best{display: none;
+color:black; font-family: 'Playfair Display', serif;
+font-size: 20px; background-color: white;
+}
+.list{color:white; font-family: 'Playfair Display', serif;
+font-size: 20px; text-align: center; 
+}
+.directory{margin-top: 20px;
+}
+.camp{background-color: lightblue; color:blue;
+}
